@@ -1,0 +1,6 @@
+matplotlib
+wordcloud
+tornado
+requests
+beautifulsoup4
+nltk
