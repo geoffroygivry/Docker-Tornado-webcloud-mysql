@@ -1,6 +1,6 @@
 version: '3'
 services:
-  octopuslabsmain:
+  tornadowordcloudmysql:
     build: .
     volumes: # For dev purpose
      - .:/code # For Dev Purpose: Allows to reload and display the fresh new code.
