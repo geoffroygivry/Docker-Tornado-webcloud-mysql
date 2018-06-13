@@ -16,4 +16,3 @@ RUN dpkg-reconfigure --frontend noninteractive tzdata
 RUN apt-get update && apt-get install -y python python-dev python-tk python-pip \
     libxft-dev libfreetype6 libfreetype6-dev
 RUN pip install --no-cache-dir -r requirements.txt
-CMD ["python", "test_imports.py"]
