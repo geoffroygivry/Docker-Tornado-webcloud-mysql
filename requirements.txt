@@ -4,3 +4,5 @@ tornado
 requests
 beautifulsoup4
 nltk
+torndb
+MySQLdb
